@@ -43,14 +43,14 @@ trait _Applicative
      *
      * the recommended use cases are
      *
-     * _pure(x2y) *: f_x
+     * _pure(x2y) *: fun_x
      * where x2y: X => Y
      * (see map below)
      *
-     * (_pure(xy2z) *: f_x) *: f_y
+     * (_pure(xy2z) *: fun_x) *: fun_y
      * where xy2z: X => Y => Z
      *
-     * ((_pure(wxy2z) *: f_ w) *: f_x) *: f_y
+     * ((_pure(wxy2z) *: fun_ w) *: fun_x) *: fun_y
      * where wxy2z: W => X => Y => Z
      *
      * and so on ...
