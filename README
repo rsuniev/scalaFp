@@ -12,4 +12,26 @@ that is similar to the style I used for some blogs
 on monad transformers
 (http://lucdup.blogspot.com/2009/12/monad-transformers-example.html).
 
+for the moment the following traits are defined
+
+src/pure/_Pure.scala
+src/arrow/_ApplicativeArrow.scala
+src/arrow/_Arrow.scala
+src/arrow/__MonadAsApplicativeArrow.scala
+src/monoidal/__ApplicativeAsMonoidal.scala
+src/monoidal/_Monoidal.scala
+src/monoidal/_MonoidAsMonoidal.scala
+src/functor/_Functor.scala
+src/monad/__ApplicativeArrowAsMonad.scala
+src/monad/_Monad.scala
+src/category/_Category.scala
+src/applicative/__ComposedApplicative.scala
+src/applicative/_Applicative.scala
+src/applicative/__ArrowAsApplicative.scala
+src/applicative/__MonoidalAsApplicative.scala
+src/monoid/_Monoid.scala
+src/traversable/_Traversable.scala
+src/traversable/_MonoidTraversable.scala
+src/id/_Id.scala
+
 Luc
