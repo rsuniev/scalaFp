@@ -1,0 +1,11 @@
+cd (project-directory)
+git add .
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@github.com:LucDupAtGitHub/scalaFp.git
+git push origin master
+-- later
+git add .
+git commit -m 'whatever'
+git push origin master

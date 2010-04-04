@@ -34,8 +34,8 @@ trait _Category
      *
      * the resulting computation
      * does the computation this and
-     * does the computation op_y_and_z
-     * using the output value of this as input value of op_y_and_z
+     * does the computation op_y2z
+     * using the output value of this as input value of op_y2z
      */
     def >>>[Z](op_y2z: Op[Y, Z]): Op[X, Z]
   }
