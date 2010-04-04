@@ -1,0 +1,15 @@
+This git project is (yet another) attempt
+to build a pure functional programming framework
+for Scala.
+
+To start with I have written traits for the concepts
+that are dealt with in the paper 
+Applicative Programming with Effects
+(http://www.soi.city.ac.uk/~ross/papers/Applicative.html).
+
+I have written the traits using a programming style
+that is similar to the style I used for some blogs
+on monad transformers
+(http://lucdup.blogspot.com/2009/12/monad-transformers-example.html).
+
+Luc
